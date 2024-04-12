@@ -1,0 +1,38 @@
+"""tup =(1,2,3,4,5,6)
+print(type(tup))"""
+
+"""movie =[]
+mov =input("Enter your 1 favorite movie ")
+movie.append(mov)
+mov =input("Enter your 2 favorite movie ")
+movie.append(mov)
+mov =input("Enter your 3 favorite movie ")
+movie.append(mov)
+print(movie)"""
+
+
+#2 palindrome is or not
+
+
+l1 = []
+
+n = int(input("Enter the elements : "))
+
+for i in range(0,n):
+    ele = int(input())
+    l1.append(ele)
+
+
+print("Intial list one is : ",l1)
+
+
+l2 = l1.copy()
+l2.reverse()
+
+
+print("copy list is ",l2)
+
+if(l1==l2):
+    print("List is palindrome")
+else:
+    print("list is not palindrome")    
